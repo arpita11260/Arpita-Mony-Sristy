@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .color{
     color: darkorange;
 }
@@ -39,4 +42,29 @@ h1{
 }
 .p-right{
     padding: right;
+}
+.expo-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experi{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-box{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#box-border{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,pink);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
